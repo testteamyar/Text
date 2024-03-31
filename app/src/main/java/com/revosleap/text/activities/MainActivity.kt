@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity(),OnContactClicked,ContactList {
 
     }
 
+
     private fun checkPermissions() {
         val permissionCheck = ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.READ_CONTACTS)
         if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
